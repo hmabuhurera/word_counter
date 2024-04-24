@@ -1,4 +1,4 @@
-#! use/bin/env node
+#! /usr/bin/env node
 
 import inquirer from "inquirer";
 import chalk from "chalk";
@@ -19,4 +19,4 @@ const wordCounter : {
 
 const resultMake = wordCounter.sentence.trim().split(" ");
 
-console.log(resultMake);
+console.log(resultMake.length);

@@ -1,4 +1,4 @@
-#! use/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 const wordCounter = await inquirer.prompt([
@@ -9,4 +9,4 @@ const wordCounter = await inquirer.prompt([
     }
 ]);
 const resultMake = wordCounter.sentence.trim().split(" ");
-console.log(resultMake);
+console.log(resultMake.length);
