@@ -1,0 +1,23 @@
+{
+  "name": "word_counter",
+  "version": "1.0.0",
+  "description": "This is a TS word_counter project with using inquirer and there method use \"trim(), split(\" \"),& lenght\"",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HAFIZ MUHAMMAD TAHA",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
