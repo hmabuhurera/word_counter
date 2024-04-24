@@ -1,6 +1,6 @@
 {
   "name": "12ka5taha_word_counter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is a TS word_counter project with using inquirer and there method use \"trim(), split(\" \"),& lenght\"",
   "main": "index.js",
   "type": "module",

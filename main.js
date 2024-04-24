@@ -9,4 +9,5 @@ const wordCounter = await inquirer.prompt([
     }
 ]);
 const resultMake = wordCounter.sentence.trim().split(" ");
-console.log(resultMake.length);
+console.log(resultMake);
+console.log(chalk.magenta(`\n \t Total Word Count is:${resultMake.length}`));
